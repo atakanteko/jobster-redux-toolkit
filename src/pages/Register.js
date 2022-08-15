@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Logo } from '../components';
+import { Logo, FormRow } from '../components';
 import Wrapper from "../assets/wrappers/RegisterPage";
 
 const initialState = {
@@ -15,10 +15,11 @@ const Register = () => {
     const handleChange = (e) => {
         setValues({ ...values, [e.target.name]: e.target.value });
     }
-    console.log(values.name, values.email, values.password, values.isMember);
+
     const onSubmit = (e) => {
         e.preventDefault();
         console.log(e.target);
+        console.log(values);
     }
 
     return (
@@ -26,37 +27,27 @@ const Register = () => {
             <form className='form' onSubmit={onSubmit}>
                 <Logo />
                 <h3>Login</h3>
-                <div className="form-row">
-                    <label htmlFor="name" className="form-label">
-                        name
-                    </label>
-                    <input type="text"
-                           name='name'
-                           className='form-input'
-                           value={values.name}
-                           onChange={handleChange}/>
-                </div>
-                <div className="form-row">
-                    <label htmlFor="email" className="form-label">
-                        email
-                    </label>
-                    <input type="email"
-                           name='email'
-                           className='form-input'
-                           value={values.email}
-                           onChange={handleChange}/>
-                </div>
-                <div className="form-row">
-                    <label htmlFor="password" className="form-label">
-                        password
-                    </label>
-                    <input type="password"
-                           name='password'
-                           className='form-input'
-                           value={values.password}
-                           onChange={handleChange}/>
-                </div>
-                <button type='submit' className='btn btn-block'>submit</button>
+                {/* name field */}
+                <FormRow type='text'
+                         name='name'
+                         value={values.name}
+                         handleChange={handleChange}
+                         labelText='Name' />
+                {/* email field */}
+                <FormRow type='email'
+                         name='email'
+                         value={values.email}
+                         handleChange={handleChange}
+                         labelText='Email' />
+                {/* password field */}
+                <FormRow type='password'
+                         name='password'
+                         value={values.password}
+                         handleChange={handleChange}
+                         labelText='Password' />
+                <button type='submit' className='btn btn-block'>
+                    submit
+                </button>
             </form>
         </Wrapper>
     );
