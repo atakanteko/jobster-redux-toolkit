@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from "react-redux";
 import { toast } from 'react-toastify';
 import { Logo, FormRow } from '../components';
@@ -13,10 +14,20 @@ const initialState = {
 }
 
 const Register = () => {
+    const navigate = useNavigate();
+
     const dispatch = useDispatch();
     const { isLoading, user } = useSelector((store) => store.user)
 
     const [values, setValues] = useState(initialState);
+
+    useEffect(() => {
+        if (user) {
+            setTimeout(() => {
+                navigate('/');
+            }, 3000);
+        }
+    }, [user, navigate]);
 
     const handleChange = (e) => {
         setValues({ ...values, [e.target.name]: e.target.value });
