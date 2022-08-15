@@ -219,13 +219,14 @@ figure {
   padding: 2rem 2.5rem;
   margin: 3rem auto;
   transition: var(--transition);
+
 }
 .form:hover {
   box-shadow: var(--shadow-4);
 }
 .form-label {
   display: block;
-  font-size: var(--smallText);
+  font-size: var(--small-text);
   margin-bottom: 0.5rem;
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);

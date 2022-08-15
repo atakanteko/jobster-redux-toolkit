@@ -1,6 +1,6 @@
 import logo from '../assets/images/logo.svg';
 
-const MyComponent = () => {
+const Logo = () => {
     return (
         <figure>
             <img src={logo} alt="jobster logo" className='logo' />
@@ -8,4 +8,4 @@ const MyComponent = () => {
     );
 };
 
-export default MyComponent;
+export default Logo;
