@@ -293,6 +293,7 @@ ul {
   width: var(--fluid-width);
   max-width: var(--max-width);
   margin: 0 auto;
+
 }
 .full-page {
   min-height: 100vh;
