@@ -1,6 +1,7 @@
 import main from '../assets/images/main.svg';
 import Wrapper from "../assets/wrappers/LandingPage";
 import { Logo } from '../components';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
     return (
@@ -16,9 +17,9 @@ const Landing = () => {
                     <p>
                         Chambray cray fingerstache tbh, sus craft beer shabby chic biodiesel chartreuse tumblr. Paleo vaporware cray letterpress leggings direct trade, small batch whatever flexitarian offal kombucha affogato next level.
                     </p>
-                    <button className='btn btn-hero'>
+                    <Link to='/register' className='btn btn-hero'>
                         Login/Register
-                    </button>
+                    </Link>
                 </div>
                 <figure>
                     <img src={main} alt="job hunt" className='img main-img' />
