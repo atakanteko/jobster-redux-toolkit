@@ -21,14 +21,6 @@ const Register = () => {
 
     const [values, setValues] = useState(initialState);
 
-    useEffect(() => {
-        if (user) {
-            setTimeout(() => {
-                navigate('/');
-            }, 3000);
-        }
-    }, [user, navigate]);
-
     const handleChange = (e) => {
         setValues({ ...values, [e.target.name]: e.target.value });
     }
@@ -50,6 +42,14 @@ const Register = () => {
     const toggleMember = () => {
         setValues({...values, isMember: !values.isMember});
     }
+
+    useEffect(() => {
+        if (user) {
+            setTimeout(() => {
+                navigate('/');
+            }, 3000);
+        }
+    }, [user, navigate]);
 
     return (
         <Wrapper className='full-page'>
