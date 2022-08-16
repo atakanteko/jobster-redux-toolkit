@@ -61,6 +61,7 @@ const Wrapper = styled.nav`
     letter-spacing: var(--letterSpacing);
     text-transform: capitalize;
     cursor: pointer;
+    font-size: 11px;
   }
   .logo-text {
     display: none;

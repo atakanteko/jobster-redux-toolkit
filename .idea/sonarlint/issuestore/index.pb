@@ -5,12 +5,8 @@ A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 V
 &src/assets/wrappers/ChartsContainer.js,c/3/c396903f7d8e31cbd382346b04fc1e118021d2b0
-Q
-!src/assets/wrappers/BigSidebar.js,7/1/71a1edfaa16db06907b935372a1035c8cd3b60cc
 H
 src/assets/css/index.css,4/5/45e25c8e0371ded7ceab0e9984c90eb22123aca9
-M
-src/assets/wrappers/Navbar.js,d/f/dfa42d72eda8f3ca6dab21ddde4d26711d97ef99
 J
 src/assets/images/logo.svg,b/e/bee4f9f8858eb6f9b569d4d7479354c43bb1698e
 O
@@ -23,8 +19,6 @@ D
 src/pages/Landing.js,5/b/5b3c10cd2a6fd8712fbe2edfee8605ee506f2653
 P
  src/assets/wrappers/ErrorPage.js,e/e/ee00417fb0abb11f722c9789c447fb66be4cd848
-F
-src/components/Logo.js,9/1/911b903ebe99d8277ab18e30b4db3e6c12b17197
 I
 src/components/FormRow.js,2/1/2158c205eb64a8eb1fcf8bc97f9c199994e5c9ff
 S
@@ -60,13 +54,7 @@ L
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
-H
-src/components/Navbar.js,2/d/2d4879a2b825dad8d007f4486bb3dca97c81dd6d
 G
 src/components/index.js,0/c/0c0fd6a370cd10350462b46937e98f903bcb1435
-N
-src/components/SmallSidebar.js,d/3/d3382611256ca72fa23df956b26fd25e6d8e4a73
 S
 #src/assets/wrappers/SharedLayout.js,9/c/9c9fbf47446a762dded28ae2a98689ff3a2e6f37
-L
-src/components/BigSidebar.js,0/0/009f9d9c30b4671d56c15149c8f23307e41fde08
