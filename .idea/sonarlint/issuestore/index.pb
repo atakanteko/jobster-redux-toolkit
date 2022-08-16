@@ -43,15 +43,10 @@ M
 src/pages/dashboard/AddJob.js,e/3/e3ae101677d574a6c19a8b1c7738839ab7f5c9a5
 N
 src/pages/dashboard/AllJobs.js,c/e/cec2a83cfa5f949eb7d826072425900b2ab68c4e
-E
-src/pages/Register.js,6/b/6b70fd87d4ba5ad5f02598f6e9ca4a2c38eb0fb1
 B
 src/pages/Error.js,5/2/52fce81f26e47550e4971df449d09a626c5d16a8
 L
 src/pages/dashboard/Stats.js,2/a/2a897ac1c38eb1233505df21934d85725b4df98f
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 G
 src/components/index.js,0/c/0c0fd6a370cd10350462b46937e98f903bcb1435
 S
