@@ -47,7 +47,5 @@ B
 src/pages/Error.js,5/2/52fce81f26e47550e4971df449d09a626c5d16a8
 L
 src/pages/dashboard/Stats.js,2/a/2a897ac1c38eb1233505df21934d85725b4df98f
-G
-src/components/index.js,0/c/0c0fd6a370cd10350462b46937e98f903bcb1435
 S
 #src/assets/wrappers/SharedLayout.js,9/c/9c9fbf47446a762dded28ae2a98689ff3a2e6f37
