@@ -21,8 +21,6 @@ F
 src/pages/Dashboard.js,0/d/0d3f9d0b3ee01f28e8a2d1ad2a033efd2e5c1e52
 R
 "src/assets/wrappers/LandingPage.js,8/2/82b8618ccc1d1433a98021b61bde3a15e08384da
-B
-src/pages/Error.js,5/2/52fce81f26e47550e4971df449d09a626c5d16a8
 D
 src/pages/Landing.js,5/b/5b3c10cd2a6fd8712fbe2edfee8605ee506f2653
 P
