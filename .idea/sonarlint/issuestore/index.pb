@@ -34,8 +34,6 @@ B
 I
 src/utils/localStorage.js,c/3/c330a52cef87e6f95a0d4ba36f90c8d3188a0bec
 N
-src/features/user/userSlice.js,f/2/f2aa8aa5ad34bd361e96d7110ed0fee6f86390d2
-N
 src/pages/dashboard/Profile.js,1/9/19dc789ef8b6a4d6090f5c4a949c0a0c249b2bfb
 B
 src/pages/index.js,c/1/c16ef34da304c300e7b6c91b3a47fea77c278c7a
