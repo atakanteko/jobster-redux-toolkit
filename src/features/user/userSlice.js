@@ -3,6 +3,8 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 import {getUserFromLocalStorage, addUserToLocalStorage, removeUserFromLocalStorage} from "../../utils/localStorage";
 
+// todo: refactor user slice
+
 const initialState = {
     user: getUserFromLocalStorage(),
     isLoading: false,
