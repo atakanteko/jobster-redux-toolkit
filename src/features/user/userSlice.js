@@ -42,13 +42,18 @@ export const updateUser = createAsyncThunk(
                     authorization: `Bearer ${thunkAPI.getState().user.user.token}`,
                 },
             });
+
             return resp.data;
         } catch (error) {
-            console.log(error.response);
+            // console.log(error.response);
+            if (error.response.status === 401) {
+                thunkAPI.dispatch(logoutUser());
+                return thunkAPI.rejectWithValue('Unauthorized! Logging Out...');
+            }
             return thunkAPI.rejectWithValue(error.response.data.msg);
         }
     }
-)
+);
 
 const userSlice = createSlice({
     name: "user",
@@ -60,6 +65,7 @@ const userSlice = createSlice({
         logoutUser: (state) => {
             state.user = null;
             state.isSidebarOpen = false;
+            toast.success('Logout Successful!');
             removeUserFromLocalStorage();
         },
     },
