@@ -3,8 +3,10 @@ import { useState } from "react";
 import { toast } from 'react-toastify';
 import { FormRow } from '../../components';
 import Wrapper from '../../assets/wrappers/DashboardFormPage';
+import {updateUser} from "../../features/user/userSlice";
 
 const Profile = () => {
+    const dispatch = useDispatch();
     const { user, isLoading } = useSelector((store) => store.user);
 
     const [userData, setUserData] = useState({
@@ -26,6 +28,7 @@ const Profile = () => {
             toast.error('Please Fill Out All Fields');
             return;
         }
+        dispatch(updateUser({ name, email, lastName, location }));
     };
 
     return (
@@ -59,7 +62,10 @@ const Profile = () => {
                         value={userData.location}
                         handleChange={handleChange}
                     />
-                    <button className='btn btn-block' type='submit' disabled={isLoading}>
+                    <button className='btn btn-block'
+                            type='submit'
+                            disabled={isLoading}
+                    >
                         {isLoading ? 'Please Wait...' : 'save changes'}
                     </button>
                 </div>
