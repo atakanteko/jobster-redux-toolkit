@@ -31,8 +31,6 @@ B
 src/pages/index.js,c/1/c16ef34da304c300e7b6c91b3a47fea77c278c7a
 L
 src/pages/dashboard/index.js,6/1/61a5b8d89ab43321e9e30b82930956868520e8ad
-N
-src/pages/dashboard/AllJobs.js,c/e/cec2a83cfa5f949eb7d826072425900b2ab68c4e
 B
 src/pages/Error.js,5/2/52fce81f26e47550e4971df449d09a626c5d16a8
 L
@@ -58,8 +56,6 @@ B
 src/utils/links.js,3/b/3b6289b921b72f7711ddcc7b6cfac54a7b43d9ee
 N
 src/components/SmallSidebar.js,d/3/d3382611256ca72fa23df956b26fd25e6d8e4a73
-G
-src/components/index.js,0/c/0c0fd6a370cd10350462b46937e98f903bcb1435
 J
 src/components/NavLinks.js,8/c/8cfcfe861e1f3af5c07cd2c828c283246aee896b
 L
