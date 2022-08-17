@@ -45,9 +45,6 @@ F
 src/components/Logo.js,9/1/911b903ebe99d8277ab18e30b4db3e6c12b17197
 M
 src/assets/wrappers/Navbar.js,d/f/dfa42d72eda8f3ca6dab21ddde4d26711d97ef99
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 Q
 !src/assets/wrappers/BigSidebar.js,7/1/71a1edfaa16db06907b935372a1035c8cd3b60cc
 S
