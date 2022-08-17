@@ -1,9 +1,9 @@
 
-const FormRowSelect = ({name, value, handleChange, optionList}) => {
+const FormRowSelect = ({name, value, handleChange, optionList, labelText}) => {
     return (
         <div className='form-row'>
-            <label htmlFor='status' className='form-label'>
-                status
+            <label htmlFor={name} className='form-label'>
+                {labelText || name}
             </label>
             <select
                 name={name}
