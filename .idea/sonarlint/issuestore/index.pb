@@ -28,10 +28,6 @@ S
 <
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 B
-src/utils/axios.js,d/4/d4f1a1a3f34198ceb94ca7788807aec5ec3e2fd6
-I
-src/utils/localStorage.js,c/3/c330a52cef87e6f95a0d4ba36f90c8d3188a0bec
-B
 src/pages/index.js,c/1/c16ef34da304c300e7b6c91b3a47fea77c278c7a
 L
 src/pages/dashboard/index.js,6/1/61a5b8d89ab43321e9e30b82930956868520e8ad
@@ -45,3 +41,32 @@ L
 src/pages/dashboard/Stats.js,2/a/2a897ac1c38eb1233505df21934d85725b4df98f
 S
 #src/assets/wrappers/SharedLayout.js,9/c/9c9fbf47446a762dded28ae2a98689ff3a2e6f37
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
+F
+src/components/Logo.js,9/1/911b903ebe99d8277ab18e30b4db3e6c12b17197
+M
+src/assets/wrappers/Navbar.js,d/f/dfa42d72eda8f3ca6dab21ddde4d26711d97ef99
+H
+src/components/Navbar.js,2/d/2d4879a2b825dad8d007f4486bb3dca97c81dd6d
+:
+
+src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+Q
+!src/assets/wrappers/BigSidebar.js,7/1/71a1edfaa16db06907b935372a1035c8cd3b60cc
+S
+#src/assets/wrappers/SmallSidebar.js,0/a/0aa637d6a8b6b7c9dd1f77fe87a8ef96ad9d63ee
+B
+src/utils/links.js,3/b/3b6289b921b72f7711ddcc7b6cfac54a7b43d9ee
+N
+src/components/SmallSidebar.js,d/3/d3382611256ca72fa23df956b26fd25e6d8e4a73
+G
+src/components/index.js,0/c/0c0fd6a370cd10350462b46937e98f903bcb1435
+J
+src/components/NavLinks.js,8/c/8cfcfe861e1f3af5c07cd2c828c283246aee896b
+L
+src/components/BigSidebar.js,0/0/009f9d9c30b4671d56c15149c8f23307e41fde08
+E
+src/pages/Register.js,6/b/6b70fd87d4ba5ad5f02598f6e9ca4a2c38eb0fb1
