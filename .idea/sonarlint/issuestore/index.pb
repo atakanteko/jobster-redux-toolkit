@@ -31,8 +31,6 @@ B
 src/pages/index.js,c/1/c16ef34da304c300e7b6c91b3a47fea77c278c7a
 L
 src/pages/dashboard/index.js,6/1/61a5b8d89ab43321e9e30b82930956868520e8ad
-M
-src/pages/dashboard/AddJob.js,e/3/e3ae101677d574a6c19a8b1c7738839ab7f5c9a5
 N
 src/pages/dashboard/AllJobs.js,c/e/cec2a83cfa5f949eb7d826072425900b2ab68c4e
 B
