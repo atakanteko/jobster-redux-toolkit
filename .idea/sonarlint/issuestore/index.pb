@@ -37,10 +37,6 @@ L
 src/pages/dashboard/Stats.js,2/a/2a897ac1c38eb1233505df21934d85725b4df98f
 S
 #src/assets/wrappers/SharedLayout.js,9/c/9c9fbf47446a762dded28ae2a98689ff3a2e6f37
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-A
-package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 F
 src/components/Logo.js,9/1/911b903ebe99d8277ab18e30b4db3e6c12b17197
 M
@@ -59,3 +55,36 @@ L
 src/components/BigSidebar.js,0/0/009f9d9c30b4671d56c15149c8f23307e41fde08
 E
 src/pages/Register.js,6/b/6b70fd87d4ba5ad5f02598f6e9ca4a2c38eb0fb1
+N
+src/pages/dashboard/Profile.js,1/9/19dc789ef8b6a4d6090f5c4a949c0a0c249b2bfb
+K
+src/pages/ProtectedRoute.js,2/6/265b84122f3ec9cf65344a11c99b47ab1e8cca45
+S
+#src/pages/dashboard/SharedLayout.js,c/6/c6443fc80f5854eb6297e7836b3858b1eba1b6cd
+O
+src/components/FormRowSelect.js,a/e/ae84e1c7390cb8af910de2391f35012d4985b516
+M
+src/pages/dashboard/AddJob.js,e/3/e3ae101677d574a6c19a8b1c7738839ab7f5c9a5
+H
+src/components/Navbar.js,2/d/2d4879a2b825dad8d007f4486bb3dca97c81dd6d
+L
+src/features/job/jobSlice.js,4/2/42128dd81be08fa9c15aa1c9471abad0885dd14a
+G
+src/components/index.js,0/c/0c0fd6a370cd10350462b46937e98f903bcb1435
+J
+src/assets/wrappers/Job.js,9/a/9adf955cb2d48086ce36c86ae3425aa7df9a385f
+<
+src/store.js,e/5/e5a2735375b021a063f28df6dd2434503bb70c9b
+N
+src/pages/dashboard/AllJobs.js,c/e/cec2a83cfa5f949eb7d826072425900b2ab68c4e
+O
+src/components/JobsContainer.js,5/a/5a2ae161cceaa66c31190ca725db173386fbe92d
+:
+
+src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+Q
+!src/components/SearchContainer.js,0/6/06a862d02d299059ae8fb00bcf9480e9315464e7
+I
+src/components/JobInfo.js,a/9/a91b6eeb1b5f7ff21c8c59d8a230a2b670554d5f
+T
+$src/features/allJobs/allJobsSlice.js,f/e/fe54bee07e42915c215525f9cd2ab95a91108c3c
