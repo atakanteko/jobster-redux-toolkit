@@ -67,8 +67,6 @@ M
 src/pages/dashboard/AddJob.js,e/3/e3ae101677d574a6c19a8b1c7738839ab7f5c9a5
 H
 src/components/Navbar.js,2/d/2d4879a2b825dad8d007f4486bb3dca97c81dd6d
-L
-src/features/job/jobSlice.js,4/2/42128dd81be08fa9c15aa1c9471abad0885dd14a
 G
 src/components/index.js,0/c/0c0fd6a370cd10350462b46937e98f903bcb1435
 J
@@ -84,7 +82,3 @@ O
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 Q
 !src/components/SearchContainer.js,0/6/06a862d02d299059ae8fb00bcf9480e9315464e7
-I
-src/components/JobInfo.js,a/9/a91b6eeb1b5f7ff21c8c59d8a230a2b670554d5f
-T
-$src/features/allJobs/allJobsSlice.js,f/e/fe54bee07e42915c215525f9cd2ab95a91108c3c
